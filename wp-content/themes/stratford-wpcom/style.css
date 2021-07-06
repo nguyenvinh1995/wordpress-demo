@@ -4617,3 +4617,7 @@ button[data-load-more-btn].has-background:visited {
 .wp-block-search .wp-block-search__button {
 	background-color: var(--wp--preset--color--primary);
 }
+
+.site-main{
+	padding-top: 0px !important;
+}

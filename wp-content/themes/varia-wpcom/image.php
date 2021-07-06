@@ -27,9 +27,10 @@ get_header();
 						</div><!-- .nav-links -->
 					</nav><!-- .image-navigation -->
 
-					<header class="entry-header responsive-max-width">
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-					</header><!-- .entry-header -->
+<!--					<header class="entry-header responsive-max-width">-->
+<!--					--><?php //the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+<!--					</header>-->
+                    <!-- .entry-header -->
 
 					<div class="entry-content">
 

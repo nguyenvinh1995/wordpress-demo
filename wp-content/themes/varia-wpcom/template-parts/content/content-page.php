@@ -13,9 +13,9 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<header class="entry-header responsive-max-width">
-		<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
-	</header>
+<!--	<header class="entry-header responsive-max-width">-->
+<!--		--><?php //get_template_part( 'template-parts/header/entry', 'header' ); ?>
+<!--	</header>-->
 
 	<?php if ( true === get_theme_mod( 'show_featured_image_on_pages', false ) ) : ?>
 		<?php varia_post_thumbnail(); ?>
