@@ -28,7 +28,8 @@
 		<?php the_content(); ?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer responsive-max-width">
-		<?php varia_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+<!--	<footer class="entry-footer responsive-max-width">-->
+<!--		--><?php //varia_entry_footer(); ?>
+<!--	</footer>-->
+    <!-- .entry-footer -->
 </article><!-- #post-${ID} -->

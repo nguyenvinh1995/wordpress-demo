@@ -67,24 +67,25 @@ get_header();
 						?>
 					</div><!-- .entry-content -->
 
-					<footer class="entry-footer responsive-max-width">
-					<?php
-						// Retrieve attachment metadata.
-						$metadata = wp_get_attachment_metadata();
-					if ( $metadata ) {
-						printf(
-							'<span class="full-size-link"><span class="screen-reader-text">%1$s</span><a href="%2$s">%3$s &times; %4$s</a></span>',
-							_x( 'Full size', 'Used before full size attachment link.', 'varia' ),
-							esc_url( wp_get_attachment_url() ),
-							absint( $metadata['width'] ),
-							absint( $metadata['height'] )
-						);
-					}
-					?>
-
-						<?php varia_entry_footer(); ?>
-
-					</footer><!-- .entry-footer -->
+<!--					<footer class="entry-footer responsive-max-width">-->
+<!--					--><?php
+//						// Retrieve attachment metadata.
+//						$metadata = wp_get_attachment_metadata();
+//					if ( $metadata ) {
+//						printf(
+//							'<span class="full-size-link"><span class="screen-reader-text">%1$s</span><a href="%2$s">%3$s &times; %4$s</a></span>',
+//							_x( 'Full size', 'Used before full size attachment link.', 'varia' ),
+//							esc_url( wp_get_attachment_url() ),
+//							absint( $metadata['width'] ),
+//							absint( $metadata['height'] )
+//						);
+//					}
+//					?>
+<!---->
+<!--						--><?php //varia_entry_footer(); ?>
+<!---->
+<!--					</footer-->
+                            <!-- .entry-footer -->
 				</article><!-- #post-## -->
 
 				<?php

@@ -28,8 +28,7 @@ if ( function_exists( 'wp_body_open' ) ) {
 ?>
 
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'varia' ); ?></a>
-
+<!--	<a class="skip-link screen-reader-text" href="#content">--><?php //_e( 'Skip to content', 'varia' ); ?><!--</a>-->
 	<?php
 	if ( ( true === get_theme_mod( 'hide_site_header', false ) && is_front_page() && is_page() ) ) {
 		// Do nothing if this is the homepage and the hide-header setting is active.
@@ -39,15 +38,6 @@ if ( function_exists( 'wp_body_open' ) ) {
 		get_template_part( 'template-parts/header/header', 'content' );
 	}
 	?>
-
-<!--    --><?php
-//
-//    if ( is_active_sidebar( 'custom-header-widget' ) ) : ?>
-<!--        <div id="header-widget-area" class="chw-widget-area widget-area" role="complementary">-->
-<!--            --><?php //dynamic_sidebar( 'custom-header-widget' ); ?>
-<!--        </div>-->
-<!---->
-<!--    --><?php //endif; ?>
 
 	<div id="content" class="site-content">
 

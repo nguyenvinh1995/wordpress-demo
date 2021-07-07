@@ -51,9 +51,10 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer responsive-max-width">
-		<?php varia_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	<!--<footer class="entry-footer responsive-max-width">
+		<?php /*varia_entry_footer(); */?>
+	</footer>-->
+    <!-- .entry-footer -->
 
 	<?php if ( ! is_singular( 'attachment' ) ) : ?>
 		<?php get_template_part( 'template-parts/post/author', 'bio' ); ?>
